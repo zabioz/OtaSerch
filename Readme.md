@@ -1,4 +1,21 @@
 <h1>Otaserch</h1>
+<h2>화면</h2>
+<p> 홈 </p>
+
+![test](https://github.com/zabioz/OtaSerch/blob/master/screenshot/1.png)
+
+<p> 검색결과 </p>
+
+![test](https://github.com/zabioz/OtaSerch/blob/master/screenshot/2.png)
+
+<p> 상세 </p>
+
+![test](https://github.com/zabioz/OtaSerch/blob/master/screenshot/3.png)
+
+<p> 업로드 </p>
+
+![test](https://github.com/zabioz/OtaSerch/blob/master/screenshot/4.png)
+
 
 <h3>4.20~4.26</h3>
 <p>디자인 작업 완료</p>

@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "my-project-ca5a7"
+    "default": "my-project-ca5a7",
+    "mypro": "my-project-ca5a7"
   }
 }

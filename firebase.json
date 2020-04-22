@@ -1,13 +1,22 @@
 {
-  "database": {
-    "rules": "database.rules.json"
-  },
   "hosting": {
-    "public": "public",
+    "public": "./",
     "ignore": [
       "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+      "database-rules.json",
+      "storage.rules",
+      "functions"
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(js|html)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=0"
+          }
+        ]
+      }
     ],
     "rewrites": [
       {
@@ -15,5 +24,9 @@
         "destination": "/index.html"
       }
     ]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
   }
 }
